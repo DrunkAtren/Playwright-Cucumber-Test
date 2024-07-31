@@ -1,7 +1,5 @@
 const { Given, When, Then} = require('@cucumber/cucumber');
 import { Page, chromium, Browser, expect } from '@playwright/test';
-var {setDefaultTimeout} = require('@cucumber/cucumber');
-setDefaultTimeout(60 * 1000);
 
 let page:Page
 let browser:Browser
